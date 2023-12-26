@@ -14,7 +14,7 @@ body {
 	color: #333;
 	font-weight: normal;
 	font-size: 1em;
-	font-family: 'Roboto', Arial, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
   	padding-top: 5rem;
 }
 
@@ -69,8 +69,8 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 }
 .section2 .col2 {
 	width: 48.71%;
-	border: 2px solid #000000;
-	border-radius: 8px;
+	border: 3px solid #0fbcf9;
+	border-radius: 5px;
 	box-shadow: 5px 10px #666;
 	
 }
@@ -104,7 +104,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
     border: 0;
     background: #EDEDED;
     margin: 7px 0;
-	border: 2px solid #000000;
+	border: 3px solid #0fbcf9;
 }
 .section2 .sec2contactform textarea {
 	width: 100%;
@@ -116,15 +116,18 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	padding: 15px 40px;
     color: #fff;
     border: 0;
-    background:  #0fbcf9;
+    background:  #0a8bb9;
     font-size: 16px;
     text-transform: uppercase;
     margin: 7px 0;
     cursor: pointer;
     font-weight: 700;
     font-size: medium;
-	border: 2px solid #000000;
+	border: 2px solid #0fbcf9;
 	border-radius: 10px;
+	&:hover {
+		color:#0fbcf9;
+		  }
 }
 .section2 .sec2contactform h3 {
 	font-weight: normal;

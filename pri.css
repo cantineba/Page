@@ -5,7 +5,7 @@
 body{
     min-height: 100vh;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: #ffffff;
     color: #666;
     display: flex;
@@ -46,7 +46,7 @@ body{
     text-align: center;
     position: relative;
     border-radius: 10px;
-    border: 5px solid #000000;
+    border: 5px solid #0d89b6;
     box-shadow: 5px 10px #cacaca;
 }
 
