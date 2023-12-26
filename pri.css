@@ -1,193 +1,211 @@
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body{
-    min-height: 100vh;
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #ffffff;
-    color: #666;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow-x: hidden;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #ffffff;
+  color: #666;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
 }
 
 .container{
-    max-width: 1100px;
-    margin: auto;
+  max-width: 1100px;
+  margin: auto;
 }
 
 .container h1{
-    text-align: center;
-    /* margin-bottom: 3.5rem; */
-    font-size: 2.4rem;
-    word-spacing: 0.3rem;
-    color: #0fbcf9;
+  text-align: center;
+  /* margin-bottom: 3.5rem; */
+  font-size: 2.4rem;
+  word-spacing: 0.3rem;
+  color: #0fbcf9;
 }
 
 .container h5{
-  text-align: center;
-  margin-bottom: 3.5rem;
-  font-size: 1.0rem;
-  color: #22262C;
+text-align: center;
+margin-bottom: 3.5rem;
+font-size: 1.0rem;
+color: #22262C;
 }
 
 .cards{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1rem;
 }
 
 .card{
-    background-color: #ffffff;
-    padding: 1rem 2rem;
-    text-align: center;
-    position: relative;
-    border-radius: 10px;
-    border: 5px solid #0d89b6;
-    box-shadow: 5px 10px #cacaca;
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  border: 5px solid #0d89b6;
+  box-shadow: 5px 10px #cacaca;
 }
-
+.card1{
+  background-color: #ffffff;
+  /* padding: 1rem 2rem; */
+  text-align: left;
+  position: relative;
+  border-radius: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+  /* border: 5px solid #0d89b6; */
+  /* box-shadow: 5px 10px #cacaca; */
+}
+.card1 h3{
+  font-size: 20px;
+  text-align: center;
+}
 .card span{
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .card h2, .card h1{
-    text-align: center;
+  text-align: center;
 }
 
 .card ul {
-    margin-top: 3rem;
-    list-style: none; 
-    text-align: left;
-    margin-bottom: 7rem;
+  margin-top: 3rem;
+  list-style: none; 
+  text-align: left;
+  margin-bottom: 7rem;
 }
 
 .card ul li{
-    line-height: 2.5;
+  line-height: 2.5;
 }
-  
+
 .card ul li::before {
-    content: "\2022"; 
-    color:  #0fbcf9;
-    font-weight: bold; 
-    display: inline-block; 
-    width: 1em; 
-    margin-left: -1em; 
+  content: "\2022"; 
+  color:  #0fbcf9;
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
 }
 
 .card .btn{
-    font-size: 1rem;
-    border: none;
-    background-color: transparent;
-    color: #000000;
-    border: 2px solid  #0fbcf9;
-    padding: 0.8rem 2rem;
-    position: absolute;
-    bottom: 0;
-    left: 6rem;
-    margin-bottom: 2rem;
-    outline: none;
-    cursor: pointer;
-    border-radius: 5px;
-    
+  font-size: 1rem;
+  border: none;
+  background-color: transparent;
+  color: #000000;
+  border: 2px solid  #0fbcf9;
+  padding: 0.8rem 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 6rem;
+  margin-bottom: 2rem;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
 }
 
 .card .btn:hover{
-    background-color:  #0e95c6;
-    transition: all 0.3s ease;
+  background-color:  #0e95c6;
+  transition: all 0.3s ease;
 }
 .currency {
-  margin-top: 10px;
-  vertical-align: top;
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1;
+margin-top: 10px;
+vertical-align: top;
+font-size: 2rem;
+font-weight: 700;
+line-height: 1;
 }
 
 @media(max-width: 1000px){
-    .cards{
-        grid-template-columns: repeat(2,1fr);
-        grid-gap: 1rem;
-    }
+  .cards{
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 1rem;
+  }
 }
 
 @media(max-width: 675px){
-    .cards{
-        grid-template-columns: 1fr;
-        grid-gap: 1rem;
-    }
+  .cards{
+      grid-template-columns: 1fr;
+      grid-gap: 1rem;
+  }
 }
 
 /* fixed navbar */
 .fixed-nav-bar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 65px;
-  /* background:  linear-gradient(to right, #0f2027, #203a43, #2c5364);    */
-  background: white;
-  text-align: right;
-  /* padding-top: 20px; */
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 65px;
+/* background:  linear-gradient(to right, #0f2027, #203a43, #2c5364);    */
+background: white;
+text-align: right;
+/* padding-top: 20px; */
 
 }
 .content {
-  margin-top: 20px;
+margin-top: 20px;
 }
 .fixed-nav-bar li, .fixed-nav-bar a { 
-  height: 10px;
-  line-height: 10px;
-  padding-top: 13px;
+height: 10px;
+line-height: 10px;
+padding-top: 13px;
 }
 .menu-items {
-  display: inline-block;
-  padding-right:  100px;
+display: inline-block;
+padding-right:  100px;
 
 }
 .menu-items li {
-  display: inline-block;  
-  margin-right: 2px;
-  margin-left: 2px;
+display: inline-block;  
+margin-right: 2px;
+margin-left: 2px;
 }
 .menu-items a {
-  text-decoration: none;
-  font-size: 15px;
-  /* color: white; */
-  color: black;
-  border: 1px solid;
-  padding: 10px 10px 10px 10px;
-  border-width: 2px;
-  border-radius: 5px;
-  &:hover {
-    color:#0fbcf9;
-  }
+text-decoration: none;
+font-size: 15px;
+/* color: white; */
+color: black;
+border: 1px solid;
+padding: 10px 10px 10px 10px;
+border-width: 2px;
+border-radius: 5px;
+&:hover {
+  color:#0fbcf9;
+}
 }
 .menu-items a :hover{
-  opacity: 1;
-  color: #0fbcf9 ;
+opacity: 1;
+color: #0fbcf9 ;
 }
 img{
-  display: block;
-  max-width: 40%;
-  max-height: 40%;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+max-width: 40%;
+max-height: 40%;
+margin-left: auto;
+margin-right: auto;
 
-  }
+}
 .logo{
-  max-width: 50%;
-  max-height: 50%;
-  border-radius: 50%;
-  float: left;
-  position: relative;
+max-width: 50%;
+max-height: 50%;
+border-radius: 50%;
+float: left;
+position: relative;
+align-items: center;
+justify-content: space-between;
+background-color: transparent;
+align-self: center;
+padding-left: 150px;
+padding-top: 10px;
+}
+.side{
   align-items: center;
-  justify-content: space-between;
-  background-color: transparent;
-  align-self: center;
-  padding-left: 150px;
-  padding-top: 10px;
+  text-align: center; 
 }
