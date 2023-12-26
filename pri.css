@@ -49,27 +49,13 @@ color: #22262C;
   border: 5px solid #0d89b6;
   box-shadow: 5px 10px #cacaca;
 }
-.card1{
-  background-color: #ffffff;
-  /* padding: 1rem 2rem; */
-  text-align: left;
-  position: relative;
-  border-radius: 10px;
-  text-align: justify;
-  text-justify: inter-word;
-  /* border: 5px solid #0d89b6; */
-  /* box-shadow: 5px 10px #cacaca; */
-}
-.card1 h3{
-  font-size: 20px;
-  text-align: center;
-}
 .card span{
   font-size: 1.1rem;
 }
 
 .card h2, .card h1{
   text-align: center;
+  font-size: 20px;
 }
 
 .card ul {
@@ -91,7 +77,6 @@ color: #22262C;
   width: 1em; 
   margin-left: -1em; 
 }
-
 .card .btn{
   font-size: 1rem;
   border: none;
@@ -205,7 +190,24 @@ align-self: center;
 padding-left: 150px;
 padding-top: 10px;
 }
-.side{
-  align-items: center;
-  text-align: center; 
+
+/* Features */
+.card1{
+  background-color: #ffffff;
+  text-align: left;
+  position: relative;
+  border-radius: 10px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.card1 h3{
+  font-size: 20px;
+  text-align: center;
+}
+.card1 ul li::before {
+  content: "\2022"; 
+  color:  #0fbcf9;
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em; 
 }
