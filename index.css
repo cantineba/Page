@@ -682,11 +682,11 @@ h4 {
   }
 
   #mail {
-    font-size: 18px;
+    font-size: 15px;
     text-align: left;
   }
   .mail  a{
-    font-size: 18px;
+    font-size: 15px;
     color: rgb(0, 0, 0);
     text-decoration: none;
     &:hover {
