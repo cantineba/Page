@@ -12,6 +12,14 @@ body{
   align-items: center;
   justify-content: center;
   overflow-x: hidden;
+
+ /* no highlight */
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
 }
 
 .container{
@@ -86,12 +94,12 @@ color: #22262C;
   padding: 0.8rem 2rem;
   position: absolute;
   bottom: 0;
-  left: 6rem;
+  /* left: 6rem; */
+  left: 8rem;
   margin-bottom: 2rem;
   outline: none;
   cursor: pointer;
   border-radius: 5px;
-  
 }
 
 .card .btn:hover{
@@ -193,21 +201,21 @@ padding-top: 10px;
 
 /* Features */
 .card1{
-  background-color: #ffffff;
-  text-align: left;
-  position: relative;
-  border-radius: 10px;
-  text-align: justify;
-  text-justify: inter-word;
+background-color: #ffffff;
+text-align: left;
+position: relative;
+border-radius: 10px;
+text-align: justify;
+text-justify: inter-word;
 }
 .card1 h3{
-  font-size: 20px;
-  text-align: center;
+font-size: 20px;
+text-align: center;
 }
 .card1 ul li::before {
-  content: "\2022"; 
-  color:  #0fbcf9;
-  display: inline-block; 
-  width: 1em; 
-  margin-left: -1em; 
+content: "\2022"; 
+color:  #0fbcf9;
+display: inline-block; 
+width: 1em; 
+margin-left: -1em; 
 }

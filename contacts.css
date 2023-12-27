@@ -16,6 +16,14 @@ body {
 	font-size: 1em;
 	font-family: 'Times New Roman', Times, serif;
   	padding-top: 5rem;
+
+ /* no highlight */
+ -webkit-touch-callout: none;
+ -webkit-user-select: none;
+ -khtml-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;	
 }
 
 input:focus, textarea:focus, keygen:focus, select:focus {
@@ -31,7 +39,6 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	color: #666;
 	font-weight: 300;
 }
-
 
 /* Contact Form Styling */
 .container {
@@ -76,6 +83,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 }
 .section2 .col2.first {
 	float: left;
+	margin-top: 70px;
 }
 .section2 .col2.last {
 	float: right;
@@ -88,14 +96,16 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	margin-right: 10px;
 	display: inline-block;
 	font-weight: 600;
+	
 }
 .section2 .sec2addr {
+	padding-top: 10px;
 	display: block;
 	line-height: 26px;
 	
 }
 .section2 .sec2addr p:first-child {
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 .section2 .sec2contactform input[type="text"], 
 .section2 .sec2contactform input[type="email"],
@@ -255,3 +265,45 @@ input:focus, textarea:focus, keygen:focus, select:focus {
     padding-left: 150px;
     padding-top: 10px;
 }
+
+/* footer */
+.parent {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 100px;
+	grid-row-gap: 0px;
+	margin: 10px 0 10px 0;
+	}
+	.icons{
+	  background-color: Transparent;
+	  background-repeat:no-repeat;
+	  border: none;
+	  cursor:pointer;
+	  overflow: hidden;
+	  /* padding: 0px 40px 0px 70px; */
+	  display: grid;
+	  grid-template-columns: repeat(3, 1fr);
+	  grid-template-rows: 1fr;
+	  grid-column-gap: 1px;
+	  grid-row-gap: 0px;
+	  text-decoration: none;
+	  color: #0fbcf9;
+	}
+	.icons a{
+	  color: #666; 
+	  border: 2px solid #0fbcf9;
+	  width: 35px;
+	  height: 35px;
+	  border-radius: 50%;
+	  text-align: center;
+	  vertical-align: middle;
+	  padding: 8px;
+	  &:hover {
+		color:#0fbcf9;
+	  } 
+	}
+	.icons a :hover{
+	  opacity: 1;
+	  color: #0fbcf9 ;
+	}
