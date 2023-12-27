@@ -186,7 +186,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: left;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   font-family: 'Courier New', Courier, monospace;
 }
 .add h1 {
@@ -196,6 +196,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
 }
 
 .box {
