@@ -10,7 +10,8 @@
 }
 
 html {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);  
 }
 
 .container-wrapper {
