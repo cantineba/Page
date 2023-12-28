@@ -8,8 +8,9 @@ body {
   font-family: "Roboto", sans-serif;
    /* background:  linear-gradient(to right, #0f2027, #203a43, #2c5364);    */
   /* background-color: #898E8C; */
-  background-color: white;
-  /* background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%); */
+  /* background-color: white; */
+  background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  
 
   /* no highlight */
   -webkit-touch-callout: none;
