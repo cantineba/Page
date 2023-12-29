@@ -11,7 +11,8 @@
 
 body {
 	/* background: #ffffff; */
-	background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+	background-color: #2b4162;
+    background-image: linear-gradient(to left, #2b4162 0%, #12100e 100%);
 	color: #333;
 	font-weight: normal;
 	font-size: 1em;
@@ -86,7 +87,8 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	border: 3px solid #0fbcf9;
 	border-radius: 5px;
 	box-shadow: 5px 10px #666;
-	background-color: #fff;
+	background-color: transparent;
+	color: white;
 	
 }
 .section2 .col2.first {
@@ -220,7 +222,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 
   li a {
     flex: 1;
-    background-color: #dadada;
+    /* background-color: #dadada; */
     color: #fff;
     border: 1px solid;
     padding: 0.5rem;
@@ -261,11 +263,11 @@ input:focus, textarea:focus, keygen:focus, select:focus {
     text-decoration: none;
     font-size: 15px;
     /* color: white; */
-	color: black;
+	color: rgb(255, 255, 255);
     border: 1px solid;
     padding: 10px 10px 10px 10px;
     border-width: 2px;
-    border-radius: 5px;
+    border-radius: 25px;
     &:hover {
       color:#0fbcf9;
     }
@@ -321,7 +323,7 @@ input:focus, textarea:focus, keygen:focus, select:focus {
 	  color: #0fbcf9;
 	}
 	.icons a{
-	  color: #666; 
+	  color: #ffffff; 
 	  border: 2px solid #0fbcf9;
 	  width: 35px;
 	  height: 35px;

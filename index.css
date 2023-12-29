@@ -6,12 +6,12 @@ body {
   flex-wrap: wrap;
   display: flex;
   font-family: "Roboto", sans-serif;
-   /* background:  linear-gradient(to right, #0f2027, #203a43, #2c5364);    */
+  background-color: #2b4162;
+    background-image: linear-gradient(to left, #2b4162 0%, #12100e 100%);
   /* background-color: #898E8C; */
-  /* background-color: white; */
-  background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
-  
-
+  /* background-color: black; */
+  /* background: linear-gradient(to right, #d7d2cc 0%, #304352 100%); */
+ 
   /* no highlight */
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -75,7 +75,7 @@ body {
 
   li a {
     flex: 1;
-    background-color: #dadada;
+    /* background-color: #dadada; */
     color: #fff;
     border: 1px solid;
     padding: 0.5rem;
@@ -89,9 +89,6 @@ body {
     background-color: #fff;
     color: #333;
   }
-
-
-
 
   .content {
   margin-top: 20px;
@@ -113,11 +110,11 @@ body {
   text-decoration: none;
   font-size: 15px;
   /* color: white; */
-  color: black;
+  color: rgb(255, 255, 255);
   border: 1px solid;
   padding: 10px 10px 10px 10px;
   border-width: 2px;
-  border-radius: 5px;
+  border-radius: 25px;
   &:hover {
   color:#0fbcf9;
     }
@@ -172,7 +169,7 @@ body {
 }
 
 .area {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -285,7 +282,7 @@ body {
   flex-direction: row;
   object-fit: contain;  
   object-position: center;
-  box-shadow: 10px 10px 15px rgba(153, 153, 153, 0.4);
+  box-shadow: 0px 0px 65px 50px rgba(153, 153, 153, 0.4);
   align-self: center;
   max-width: 100%;
   height: 350px;
@@ -306,7 +303,7 @@ body {
 }
 
 .text {
-  color: black;
+  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -317,7 +314,7 @@ body {
 }
 
 .tex {
-  color: black;
+  color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   /* align-items: flex-start; */
@@ -356,7 +353,7 @@ body {
 
 .question h1 {
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
   margin-bottom: 5rem;
   text-align: center;
   font-size: 40px;
@@ -371,7 +368,7 @@ body {
   width: 51%;
   min-height: 75px;
   background-color: #898E8C;
-  color: black;
+  color: rgb(253, 253, 253);
   align-items: center;
   justify-content: space-between;
   display: flex;
@@ -397,7 +394,7 @@ body {
 .quest i {
   margin: 0 30px;
   font-size: 40px;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .quest:focus {
@@ -429,14 +426,14 @@ body {
   background-color:  #03474F;
   min-height: 70px;
   width: 70%;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 30px;
   margin: 50px 0;
   text-transform: uppercase;
 }
 
 .question h4 {
-  color: black;
+  color: rgb(255, 255, 255);
   margin-top: -20px;
   padding-bottom: 40px;
 }
@@ -452,7 +449,7 @@ body {
   align-items:center;
   justify-content:space-around;
   /* color: white; */
-  color: black;
+  color: rgb(255, 255, 255);
   padding-bottom: 10px;
   font-weight: 600;
 }
@@ -468,7 +465,7 @@ body {
 }
 
 .footer .flex1 {
-  color:black;
+  color:rgb(255, 255, 255);
   justify-content:space-around;
   align-items:flex-start;
   display: flex;
@@ -543,7 +540,7 @@ align-items:flex-start;
 display: flex;
 flex-direction:row;
 flex-wrap:wrap;
-color:black;
+color:rgb(255, 255, 255);
 margin-top:-60px;
 }
 
@@ -583,7 +580,7 @@ font-size:16px;
   .navbar {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     align-items: center;
     justify-content: center;
     padding: 0;
@@ -618,11 +615,11 @@ font-size:16px;
     width: 50%;
     margin: 0 10px;
     margin-bottom: 40px;
-    color: black;
+    color: rgb(255, 255, 255);
   }
 
 h4 {
-  color:black;
+  color:rgb(255, 255, 255);
 }
 
   .box1 {
@@ -675,7 +672,7 @@ h4 {
 }
 .parent {
   align-self: center;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   margin: 0rem 0rem 1rem 20rem;
   display: grid;
@@ -699,10 +696,10 @@ h4 {
     grid-column-gap: 1px;
     grid-row-gap: 0px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   .icons a{
-    color: black; 
+    color: rgb(255, 255, 255); 
     border: 2px solid;
     width: 30px;
     height: 30px;
@@ -726,14 +723,14 @@ h4 {
   
   .mail  a{
     font-size: 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     &:hover {
       color:#0fbcf9;
     }
   }
   .bottomnav{
-  color: black;
+  color: rgb(255, 255, 255);
   background-color: transparent;
   text-decoration: none;
   justify-content:space-around;
@@ -745,7 +742,7 @@ h4 {
   }
   #use a {
     font-size: 18px;
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     &:hover {
       color:#0fbcf9;
@@ -803,8 +800,8 @@ h4 {
 
 .toggle {
   all: unset;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  /* background-color: rgb(255, 255, 255); */
+  color: rgb(255, 255, 255);
   width: 800px;
   padding: 5px;
   display: flex;
@@ -833,8 +830,8 @@ h4 {
 
 .list {
   /* background-color: rgb(255, 254, 254); */
-  background-color: #f7f5f5;
-  color: #000000;
+  /* background-color: #f7f5f5; */
+  color: #ffffff;
   list-style: none;
   display: grid;
   grid-template-rows: repeat(4, 40px);
@@ -915,10 +912,10 @@ h4 {
   border: 3px solid; 
   padding: 5px 5px 5px 5px;
   margin: 0px 50px 20px 50px;
-  border-radius: 20px;
   border: 4px solid #0fbcf9;
-  background-color:  #ffffff9c;
-  box-shadow: 10px 10px 15px rgba(153, 153, 153, 0.4);
+  border-radius: 20px;
+  /* background-color:  #ffffff9c; */
+  box-shadow: 10px 20px 15px rgba(153, 153, 153, 0.4);
   flex-grow: 1;
   flex-basis: 200;
   /* &:hover {
@@ -949,5 +946,29 @@ h4 {
   border: 5px solid #0fbcf9;
   border-radius: 20px;
   background-color:  #ffffff9c;
-  box-shadow: 10px 10px 15px rgba(153, 153, 153, 0.4);
+  box-shadow: 0px 0px 65px 50px rgba(153, 153, 153, 0.2);
 }
+
+
+.dash {
+  animation: bounce 5s ease-in-out;
+}
+@keyframes bounce {
+    70% { transform:translateY(0%); }
+    80% { transform:translateY(-15%); }
+    90% { transform:translateY(0%); }
+    95% { transform:translateY(-7%); }
+    97% { transform:translateY(0%); }
+    99% { transform:translateY(-3%); }
+    100% { transform:translateY(0); }
+}
+
+.container1 img {
+  animation: shake 2s ease-in-out;
+}
+@keyframes shake {
+	0%, 100% {transform: translateX(0);}
+	10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+	20%, 40%, 60%, 80% {transform: translateX(10px);}
+}
+
