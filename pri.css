@@ -64,7 +64,7 @@ color:#ffffff;
   position: relative;
   border-radius: 10px;
   border: 5px solid #0d89b6;
-  box-shadow: 0px 0px 65px 50px rgba(153, 153, 153, 0.2);
+  box-shadow: 0px 0px 30px 5px rgba(153, 153, 153, 0.4);
 }
 .card span{
   font-size: 1.1rem;
