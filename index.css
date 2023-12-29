@@ -5,7 +5,7 @@ body {
   padding: 0;
   flex-wrap: wrap;
   display: flex;
-  font-family: "Roboto", sans-serif;
+  font-family:'Arial Narrow';
   background-color: #2b4162;
     background-image: linear-gradient(to left, #2b4162 0%, #12100e 100%);
   /* background-color: #898E8C; */
@@ -188,16 +188,16 @@ body {
 
 .area h3 {
   margin-top: -30px;
-  font-size: 20px;
-  letter-spacing: 1px;
+  font-size: 25px;
+  /* letter-spacing: 1px; */
   font-weight: normal;
-  font-family:Helvetica;
+  font-family:'arial narrow';
 }
 .area p {
   margin-top: -10px;
-  font-size: 15px;
-  letter-spacing: 1px;
-  font-family:Helvetica;
+  font-size: 17px;
+  /* letter-spacing: 1px; */
+  font-family:'arial narrow';
 }
 
 .search {
@@ -264,7 +264,7 @@ body {
   align-items: center;
   justify-content: space-evenly;
   text-align: left;
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Arial Narrow';
 }
 
 .container1 .pic {
@@ -282,7 +282,7 @@ body {
   flex-direction: row;
   object-fit: contain;  
   object-position: center;
-  box-shadow: 0px 0px 65px 50px rgba(153, 153, 153, 0.4);
+  box-shadow: 0px 0px 30px 5px rgba(153, 153, 153, 0.4);
   align-self: center;
   max-width: 100%;
   height: 350px;
@@ -670,7 +670,7 @@ h4 {
     margin-right: 10px;
   }
 }
-.parent {
+.parents {
   align-self: center;
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -693,7 +693,7 @@ h4 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 1px;
+    grid-column-gap: 10px;
     grid-row-gap: 0px;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -754,6 +754,7 @@ h4 {
   } 
   #icons {
     line-height: 50px; 
+    
   }
   /* #link{
     vertical-align: middle;
@@ -874,31 +875,35 @@ h4 {
 }
 
   /* grid */
-.gallery {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.grid {
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
   align-items: center;
-  flex-wrap: wrap;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap:200px;
+  color: white;
+  overflow: auto;
+  margin: auto;
 }
 
-.gallery1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(1, 1fr);
-  grid-column-gap: 40px;
+.children{
+  display:grid;;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  border: 4px solid #0fbcf9;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px rgba(153, 153, 153, 0.2); 
+  justify-items: left;     
 }
-
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px; 
+}
 .gallery [class*="gallery-icon"] {
   border: 3px solid;
   height: 625%;
@@ -909,23 +914,29 @@ h4 {
 
 #gallery-icon {
   line-height: 50px; 
-  border: 3px solid; 
-  padding: 5px 5px 5px 5px;
-  margin: 0px 50px 20px 50px;
-  border: 4px solid #0fbcf9;
-  border-radius: 20px;
-  /* background-color:  #ffffff9c; */
-  box-shadow: 10px 20px 15px rgba(153, 153, 153, 0.4);
+  /* padding: 5px 5px 5px 5px; */
+  margin: 5px 30px 5px 30px;
+  align-items: start;
+  justify-content: left;
   flex-grow: 1;
   flex-basis: 200;
-  /* &:hover {
-    color:#0fbcf9;
-  } */
 }
+
 #gallery-icon a {
-  vertical-align: middle;
-  font-size: 15px;
+  vertical-align:top;
+  font-size: 14px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.add h1{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 0%;
+}
+.text h1{
+  font-family: 'Courier New', Courier, monospace;
+}
+.tex h1{
+  font-family: 'Courier New', Courier, monospace;
 }
 .dash{
   height: 100%;
@@ -946,7 +957,7 @@ h4 {
   border: 5px solid #0fbcf9;
   border-radius: 20px;
   background-color:  #ffffff9c;
-  box-shadow: 0px 0px 65px 50px rgba(153, 153, 153, 0.2);
+  box-shadow: 0px 0px 30px 5px rgba(153, 153, 153, 0.4);
 }
 
 
