@@ -5,7 +5,7 @@
 body{
   min-height: 100vh;
   margin: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Jost', sans-serif;
   /* background-color: #050505; */
   /* background: linear-gradient(to right, #d7d2cc 0%, #304352 100%);   */
   background-color: #2b4162;
@@ -63,8 +63,8 @@ color:#ffffff;
   text-align: center;
   position: relative;
   border-radius: 10px;
-  border: 5px solid #0d89b6;
-  box-shadow: 0px 0px 30px 5px rgba(153, 153, 153, 0.4);
+  /* border: 5px solid #0d89b6; */
+  box-shadow: 0px 0px 30px 5px rgba(177, 132, 132, 0.4);
 }
 .card span{
   font-size: 1.1rem;
@@ -144,9 +144,9 @@ top: 0;
 left: 0;
 right: 0;
 width: 100%;
-height: 65px;
+height: 75px;
 /* background:  linear-gradient(to right, #0f2027, #203a43, #2c5364);    */
-background: transparent;
+background: black;
 text-align: right;
 padding-top: 10px;
 
@@ -192,7 +192,7 @@ margin-left: 2px;
   font-size: 15px;
   /* color: white; */
   color: rgb(255, 255, 255);
-  border: 1rem solid;
+  border: 1rem solid; 
   padding: 10px 10px 10px 10px;
   margin: 5px;
   border-width: 2px;
