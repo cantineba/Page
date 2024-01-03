@@ -111,8 +111,9 @@ body {
   font-size: 15px;
   /* color: white; */
   color: rgb(255, 255, 255);
-  border: 1px solid;
+  border: 1rem solid;
   padding: 10px 10px 10px 10px;
+  margin: 5px;
   border-width: 2px;
   border-radius: 25px;
   &:hover {
@@ -123,6 +124,10 @@ body {
   opacity: 1;
   color: #0fbcf9 ;
   }
+  .menu-items i{
+    vertical-align: middle;
+  }
+
   img{
   display: block;
   max-width: 45%;
